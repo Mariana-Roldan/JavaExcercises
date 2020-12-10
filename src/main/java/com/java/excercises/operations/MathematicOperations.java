@@ -18,7 +18,7 @@ public class MathematicOperations {
 	
 	public double getDivide(double numE, double numF) {
 		double result;
-		result = numE - numF;
+		result = numE / numF;
 		return result;
 	}
 	
