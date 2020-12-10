@@ -22,27 +22,29 @@ public class MathematicOperations {
 		return result;
 	}
 	
-	public String findSmallNumber (double number) {
-		String small;
+	public double getSmall (double num1, double num2) {
+		double SmallNumber;
 		
-		if(number<10) {
-			small = "Es menor";
+		if(num1<num2) {
+			SmallNumber = num1;
 		}else {
-			small = "No encontrado";
+			SmallNumber = num2;
 		}
 			
-		return small;
+		return SmallNumber;
 	}
 	
 
 	public static void main(String[] args) {
 		MathematicOperations operation = new MathematicOperations();
 		//double result;
-		String small;
-		small = operation.findSmallNumber(5);
+		double result;
+		result = operation.getSmall(2, 10);
 		//result = operation.getDivide(25, 2);
-		System.out.println("Resultado:" + small);
+		System.out.println("El numero es:" + result);
 
 	}
 	
 }
+
+
