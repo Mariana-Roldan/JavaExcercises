@@ -15,13 +15,21 @@ public class MathematicOperations {
 		result = numC - numD;
 		return result;
 	}
+	
+	public double getDivide(double numE, double numF) {
+		double result;
+		result = numE - numF;
+		return result;
+	}
+	
+	
 
 	public static void main(String[] args) {
 		MathematicOperations operation = new MathematicOperations();
 		double result;
-		// result = operation.getResidue(10, 3);
-		result = operation.getSubstraction(10, 3);
+		result = operation.getDivide(25, 2);
 		System.out.println("Result:" + result);
 
 	}
+	
 }
