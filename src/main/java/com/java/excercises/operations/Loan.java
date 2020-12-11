@@ -7,10 +7,10 @@ public class Loan {
 
 		if (salary >= 80000) {
 			loan = 5000000;
-		} else if (salary >= 50000 && salary > 80000) {
+		} else if (salary >= 50000 && salary < 80000) {
 			loan = 3000000;
 
-		} else if (salary >= 20000 && salary > 50000) {
+		} else if (salary >= 20000 && salary < 50000) {
 			loan = 15000000;
 
 		}
@@ -39,4 +39,4 @@ public class Loan {
 
 	}
 
-}
+} // 
