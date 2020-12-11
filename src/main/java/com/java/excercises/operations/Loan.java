@@ -14,7 +14,9 @@ public class Loan {
 			loan = 15000000;
 
 		}
-
+		else if (salary <=20000) {
+			loan = 500000;
+		}
 		return loan;
 	}
 
@@ -33,7 +35,7 @@ public class Loan {
 		double resultInterest;
 		result = objectLoan.getCalculateLoan(90000);
 		resultInterest = objectLoan.getCalculateInterest(result);
-		System.out.println("El prestamo es de : $" + result + "Con un interés de: $" + resultInterest);
+		System.out.println("El prestamo es de : $" + result +" Con un interés de: $" + resultInterest);
 
 	}
 
