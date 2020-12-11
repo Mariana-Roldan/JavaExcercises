@@ -11,7 +11,7 @@ public class Loan {
 			loan = 3000000;
 
 		} else if (salary >= 20000 && salary < 50000) {
-			loan = 15000000;
+			loan = 1500000;
 
 		}
 		else if (salary <=20000) {
