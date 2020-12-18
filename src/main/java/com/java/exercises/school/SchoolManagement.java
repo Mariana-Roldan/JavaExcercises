@@ -11,12 +11,13 @@ public class SchoolManagement {
 		studentList.add(student);
 	}
 
-	public void showStudentList() {
+	public List <Student> showStudentList() {
 
 		for (int i = 0; i < studentList.size(); i++) { 
 			System.out.println(studentList.get(i));
 		}
 
+		 return studentList;
 	}
 
 	public static void main(String[] args) {
